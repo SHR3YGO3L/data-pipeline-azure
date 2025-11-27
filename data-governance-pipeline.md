@@ -595,10 +595,6 @@ The automated data classification capabilities demonstrated in this recipe lever
 
 The seamless integration with Azure Synapse Analytics enables organizations to maintain governance controls throughout the entire data processing pipeline, from raw data ingestion through complex transformations to business intelligence reporting. This end-to-end lineage tracking ensures that compliance requirements are met at every stage of the analytics process while providing data engineers and analysts with the visibility needed to understand data origins and transformations. The [Azure Synapse Analytics integration guide](https://docs.microsoft.com/en-us/azure/synapse-analytics/catalog-and-governance/quickstart-connect-azure-purview) details advanced configuration options for production environments.
 
-From a cost optimization perspective, Azure Purview's consumption-based pricing model ensures that organizations only pay for actual scanning and cataloging activities, making it cost-effective for both small-scale implementations and enterprise-wide deployments. For new implementations, Microsoft recommends considering the [Microsoft Purview Unified Catalog](https://docs.microsoft.com/en-us/purview/unified-catalog) experience, which provides enhanced capabilities and simplified billing. The service's ability to schedule scans and focus on specific data sources helps optimize costs while maintaining governance coverage.
-
-> **Tip**: Implement incremental scanning strategies to minimize costs and processing time while maintaining current governance information. Use Azure Purview's built-in scheduling capabilities to scan frequently changing data sources more often than static reference data, optimizing both performance and cost effectiveness.
-
 ## Challenge
 
 Extend this data governance solution by implementing these advanced capabilities:
@@ -611,13 +607,3 @@ Extend this data governance solution by implementing these advanced capabilities
 
 4. **Implement Automated Privacy Impact Assessments**: Build workflows that automatically assess privacy impact when new data sources are added, using Azure Logic Apps to trigger compliance reviews and approval processes based on Purview classification results.
 
-5. **Deploy Advanced Lineage Tracking**: Integrate with Azure Data Factory, Azure Databricks, and other data processing services to create lineage maps that track data transformations across complex multi-step analytics pipelines.
-
-## Infrastructure Code
-
-### Available Infrastructure as Code:
-
-- [Infrastructure Code Overview](code/README.md) - Detailed description of all infrastructure components
-- [Bicep](code/bicep/) - Azure Bicep templates
-- [Bash CLI Scripts](code/scripts/) - Example bash scripts using Azure CLI commands to deploy infrastructure
-- [Terraform](code/terraform/) - Terraform configuration files
