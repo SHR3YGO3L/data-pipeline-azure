@@ -60,9 +60,6 @@ graph TB
 2. Azure CLI version 2.50.0 or later installed and configured
 3. Basic understanding of data governance concepts and Azure storage
 4. Familiarity with Azure Synapse Analytics and data pipeline concepts
-5. Estimated cost: $50-100 USD for testing environment (depends on data volume and scan frequency)
-
-> **Note**: Azure Purview follows consumption-based pricing for data scanning and catalog operations. For existing Azure Purview accounts, this recipe works with classic accounts. New customers should consider upgrading to the [Microsoft Purview Unified Catalog](https://docs.microsoft.com/en-us/purview/unified-catalog) experience. Review the [Azure Purview pricing guide](https://azure.microsoft.com/pricing/details/purview/) to understand cost implications before proceeding.
 
 ## Preparation
 
