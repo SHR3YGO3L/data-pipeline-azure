@@ -1,20 +1,3 @@
----
-title: Data Governance Pipeline with Purview Discovery
-id: 3f8a7b2c
-category: analytics
-difficulty: 200
-subject: azure
-services: Azure Purview, Azure Data Lake Storage, Azure Synapse Analytics
-estimated-time: 120 minutes
-recipe-version: 1.1
-requested-by: mzazon
-last-updated: 2025-07-12
-last-reviewed: 2025-07-23
-passed-qa: null
-tags: data-governance, compliance, data-catalog, data-lineage, automation
-recipe-generator-version: 1.3
----
-
 # Data Governance Pipeline with Purview Discovery
 
 ## Problem
